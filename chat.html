@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sun up sara's</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: #f8f8f8;
+            color: #333;
+        }
+
+        header {
+            background: url('pizza-header.jpg') center/cover no-repeat;
+            color: #fff;
+            text-align: center;
+            padding: 5em 0;
+            font-size: 2.5em;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+            padding: 1em 0;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 0.5em 1em;
+            margin: 0 1em;
+            border-radius: 4px;
+            transition: background-color 0.3s;
+        }
+
+        nav a:hover {
+            background-color: #555;
+        }
+
+        section {
+            padding: 2em;
+        }
+
+        h2 {
+            font-size: 2em;
+            margin-bottom: 1em;
+            color: #333;
+        }
+
+        .pizza-card {
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            margin-bottom: 1.5em;
+            transition: transform 0.3s;
+        }
+
+        .pizza-card:hover {
+            transform: scale(1.02);
+        }
+
+        .pizza-image {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 8px 8px 0 0;
+        }
+
+        .pizza-details {
+            padding: 1.5em;
+        }
+
+        .pizza-details h3 {
+            margin-bottom: 0.5em;
+        }
+
+        .pizza-details p {
+            color: #666;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em;
+        }
+    </style>
+</head>
+<body>
+
+
+
+    <nav>
+        <a href="#menu">Menu</a>
+        <a href="#locations">Locations</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="menu">
+        <h2>Our Menu</h2>
+
+        <div class="pizza-card">
+            <img class="pizza-image" src="pizza.jpg" alt="Pizza 1">
+            <div class="pizza-details">
+                <h3>Pepperoni Feast</h3>
+                <p>Classic pepperoni pizza with extra cheese and a flavorful tomato sauce.</p>
+                <span>₹399</span>
+            </div>
+        </div>
+
+        <div class="pizza-card">
+            <img class="pizza-image" src="piza.jpg" alt="Pizza 2">
+            <div class="pizza-details">
+                <h3>Margherita</h3>
+                <p>Simple and delicious Margherita pizza with fresh mozzarella, tomatoes, and basil.</p>
+                <span>₹599</span>
+            </div>
+        </div>
+
+        <div class="pizza-card">
+            <img class="pizza-image" src="chicken.jpg" alt="Pizza 2">
+            <div class="pizza-details">
+                <h3>chicken nuggets</h3>
+                <p>delicious chicken with fries.</p>
+                <span>₹199</span>
+            </div>
+
+            <div class="pizza-card">
+                <img class="pizza-image" src="french fries.jpg" alt="Pizza 2">
+                <div class="pizza-details">
+                    <h3>french fries</h3>
+                    <p>crispy and spicy fries.</p>
+                    <span>₹100</span>
+                </div>
+
+                <div class="pizza-card">
+                    <img class="coke" src="coke.jpg" alt="Pizza 2">
+                    <div class="pizza-details">
+                        <h3>coke</h3>
+                        <p>fresh and delicious.</p>
+                        <span>₹80</span>
+                    </div>
+
+
+
+
+
+
+
+        <!-- Add more pizza cards as needed -->
+
+    </section>
+
+    <section id="locations">
+        <h2>Our Locations</h2>
+        <p>Visit us at one of our pizza hotspots:</p>
+        <ul>
+            <li>state highway 184, Anna Nagar</li>
+            <li>8th avenue</li>
+            <li>virudhunagar, chennai</li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>For food emergencies, call us at: +91 6385507422/8124492417/9363253967</p>
+        <p>For inquiries, email us at: sunupsara143@gmail.com</p>
+    </section>
+
+    <footer>
+        &copy; 2024 sun up sara's. All food rights reserved.
+    </footer>
+
+</body>
+</html>
